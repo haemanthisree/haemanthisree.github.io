@@ -1,7 +1,10 @@
 
 
 
-
+head{
+  font-size: 20px;
+  background-color: blue;
+}
 
 p{
 color: #f8007c;
