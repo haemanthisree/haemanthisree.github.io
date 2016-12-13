@@ -10,12 +10,28 @@
 <h1 id="header">
 	<style>
 	body{
-    height: 200px;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#5EB9EB, #4C98C2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#5EB9EB, #4C98C2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#5EB9EB, #4C98C2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#5EB9EB, #4C98C2); /* Standard syntax (must be last) */
+    /* height: 200px; */
+  /*  background: red; /* For browsers that do not support gradients */
+  /*  background: -webkit-linear-gradient(#5EB9EB, #4C98C2); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#5EB9EB, #4C98C2); /* For Opera 11.1 to 12.0 */
+  /*  background: -moz-linear-gradient(#5EB9EB, #4C98C2); /* For Firefox 3.6 to 15 */
+  /*  background: linear-gradient(#5EB9EB, #4C98C2); /* Standard syntax (must be last) */
+	div {
+
+    background-color:#5EB9EB ;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 600s;
+}
+@-webkit-keyframes example {
+    from {background-color:#5EB9EB ;}
+    to {background-color: #4C98C2;}
+}
+@keyframes example {
+    from {background-color: #5EB9EB;}
+    to {background-color: #4C98C2;}
+}
 }
 	ul {
 	    list-style-type: none;
